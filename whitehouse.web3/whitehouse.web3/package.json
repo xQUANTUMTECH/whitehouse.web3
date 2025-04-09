@@ -4,7 +4,7 @@
   "description": "Un sito web3 dedicato alle idee economiche di Milton Friedman",
   "main": "index.html",
   "scripts": {
-    "build": "xcopy /E /Y /I index.html dist\\ && xcopy /E /Y /I styles.css dist\\ && xcopy /E /Y /I script.js dist\\ && xcopy /E /Y /I README.md dist\\ && xcopy /E /Y /I /S assets dist\\assets"
+    "build": "mkdir -p dist && cp -r index.html styles.css script.js assets dist/"
   },
   "keywords": [
     "web3",
@@ -13,5 +13,5 @@
     "decentralized"
   ],
   "author": "",
-  "license": "friedmaninstitute"
+  "license": "MIT"
 }
