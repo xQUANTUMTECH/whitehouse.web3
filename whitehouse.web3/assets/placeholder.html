@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Placeholders</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .placeholder-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        
+        .placeholder {
+            width: 300px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo-placeholder {
+            background-color: #3f51b5;
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+        }
+        
+        .friedman-placeholder {
+            background-color: #5c6bc0;
+            background-image: linear-gradient(135deg, #5c6bc0 0%, #3949ab 100%);
+        }
+        
+        .tariffs-placeholder {
+            background-color: #f44336;
+            background-image: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+        }
+        
+        .web3-placeholder {
+            background-color: #ff9800;
+            background-image: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+        }
+        
+        .future-placeholder {
+            background-color: #009688;
+            background-image: linear-gradient(135deg, #009688 0%, #00796b 100%);
+        }
+        
+        .instructions {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Whitehouse.web3 Image Placeholders</h1>
+    
+    <div class="placeholder-container">
+        <div class="logo-placeholder placeholder">
+            W.web3
+        </div>
+        
+        <div class="friedman-placeholder placeholder">
+            Milton Friedman<br>
+            (Replace with actual image: friedman.jpg)
+        </div>
+        
+        <div class="tariffs-placeholder placeholder">
+            Tariffs Visualization<br>
+            (Replace with actual image: tariffs.jpg)
+        </div>
+        
+        <div class="web3-placeholder placeholder">
+            Web3 Concept<br>
+            (Replace with actual image: web3.jpg)
+        </div>
+        
+        <div class="future-placeholder placeholder">
+            Future Vision<br>
+            (Replace with actual image: future.jpg)
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h2>How to Use These Placeholders</h2>
+        <p>This file contains visual placeholders for the images used in the whitehouse.web3 website. To use actual images in your site:</p>
+        <ol>
+            <li>Create/obtain the following images:</li>
+            <ul>
+                <li><strong>logo.png</strong> - A logo for the website</li>
+                <li><strong>friedman.jpg</strong> - An image of Milton Friedman</li>
+                <li><strong>tariffs.jpg</strong> - A visualization of tariffs or trade</li>
+                <li><strong>web3.jpg</strong> - An image representing Web3 or blockchain</li>
+                <li><strong>future.jpg</strong> - An image representing future vision</li>
+            </ul>
+            <li>Place these images in the <code>/assets</code> folder</li>
+            <li>They will automatically be used by the website</li>
+        </ol>
+        <p>Until then, viewing the website in a browser will show these placeholders instead of actual images.</p>
+    </div>
+</body>
+</html>
